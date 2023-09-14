@@ -1,0 +1,72 @@
+body
+{
+    background-color: bisque;
+    width: 80;
+    margin: auto;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html
+{
+    background-color: aliceblue;
+}
+
+main
+{
+    background-color: brown;
+    width:90 ;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section
+{
+    background-color: rgb(24, 125, 125);
+    width: 300%;
+    margin: 5px;
+    border: 2px  solid grey;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#xp
+{
+    background-color: darksalmon;
+}
+
+h2,h1
+{
+    text-align: center;
+    margin: 20px 0;
+}
+
+img
+{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    width: 150px;
+
+}
+
+
+    
+
+    
+   
+
+@media screen and(max-width:768px) {
+    img{
+        position: unset;
+        display: block;
+        margin: auto;
+    }
+    
+}
