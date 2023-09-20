@@ -27,6 +27,7 @@ section {
   box-shadow: 5px 5px 10px rgba(131, 131, 131, 0.5); /* Ombre */
   width: 100%;
   max-width: 500px; /* Largeur maximale pour éviter l'élargissement excessif sur les grands écrans */
+  background-color: beige;
 }
 
 h1 {
