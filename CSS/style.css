@@ -31,11 +31,10 @@ section {
 }
 
 h1 {
-  font-size: 28px; /* Taille de police personnalisée */
+  text-transform: uppercase;
   font-style: oblique;
   font-size: x-large;
-  
-font-family: 'Roboto', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
@@ -108,4 +107,14 @@ p
 font-family: 'Roboto', sans-serif;
 }
 
+@font-face {
+  font-family: 'Lobster';
+  src: url('https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Kenia&family=Lobster&family=Merriweather:wght@300&family=Roboto:wght@100&display=swap');
 
+}
+
+h1
+{
+  font-size: 50px;
+  font-family: 'Lobster';
+}
