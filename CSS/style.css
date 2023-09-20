@@ -1,4 +1,6 @@
 body {
+  margin:0;
+  padding:0;
   font-family: 'NomDeLaPolice', sans-serif; /* Utilisation de la police Google Fonts */
   background-image: url('https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483_1280.jpg');
   background-size: cover;
@@ -14,9 +16,10 @@ header {
 
 main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  justify-content: center;
+  padding: 10px;
+ 
+  flex-wrap: wrap;
  
 }
 
@@ -25,8 +28,8 @@ section {
   padding: 10px;
   border: 1px solid #ff0a0a; /* Bordure */
   box-shadow: 5px 5px 10px rgba(131, 131, 131, 0.5); /* Ombre */
-  width: 100%;
-  max-width: 500px; /* Largeur maximale pour éviter l'élargissement excessif sur les grands écrans */
+  width: 90%;
+  max-width: 350px; /* Largeur maximale pour éviter l'élargissement excessif sur les grands écrans */
   background-color: beige;
 }
 
@@ -67,6 +70,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
   main {
       padding: 10px;
+      background-color: yellow;
+      flex-direction: column;
+    
   }
 
   section {
@@ -110,11 +116,17 @@ font-family: 'Roboto', sans-serif;
 @font-face {
   font-family: 'Lobster';
   src: url('https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Kenia&family=Lobster&family=Merriweather:wght@300&family=Roboto:wght@100&display=swap');
-
+font-family: 'Kenia';
 }
 
 h1
 {
   font-size: 50px;
   font-family: 'Lobster';
+}
+
+h2
+
+{
+  font-family: 'Kenia';
 }
